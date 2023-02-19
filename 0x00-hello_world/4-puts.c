@@ -4,7 +4,7 @@
  *
  * return: alwasy 0 (success)
  */
-in main(void)
+int main(void)
 {
 	puts("\"programming is like buikding a multilingual puzzle");
 	return (0);
