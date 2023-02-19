@@ -1,5 +1,5 @@
 #include<stdio.h>
-/**
+/*
  * main - entry point
  *
  * return: alwasy 0 (success)
