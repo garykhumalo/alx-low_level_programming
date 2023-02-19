@@ -1,8 +1,8 @@
 #include<stdio.h>
 /*
- * main - Entry point
+ * main - A program that prints a line with puts function
  *
- * return: Alwasy 0 (success)
+ * Return: Alwasy 0 (success)
  */
 int main(void)
 {
