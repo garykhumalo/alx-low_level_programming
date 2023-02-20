@@ -12,6 +12,7 @@ int main(void)
 	while (s <= e)
 	{
 		putchar(s = '0');
+		
 		if (s != e)
 		{
 			putchar(',');
@@ -19,6 +20,7 @@ int main(void)
 		}
 		s++;
 	}
+	
 	putchar('\n');
 
 	return (0);
