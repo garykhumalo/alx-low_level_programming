@@ -17,7 +17,7 @@ int main(void)
 
 	s = 97;
 	e = 102;
-	
+
 	while (s <= e)
 	{
 		putchar(s);
