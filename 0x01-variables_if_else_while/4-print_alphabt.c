@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - function 
  *
- * return: 0 (success)
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -11,8 +11,9 @@ int main(void)
 
 	while (s <= e)
 	{
-		if (s != 'q' && s!= 'e')
+		if (s != 'q' && s != 'e')
 			putchar(s);
+		s++;
 	}
 	
 	putchar('\n);
