@@ -5,7 +5,7 @@
 /**
  * main - function
  *
- * Return: Always 0.
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -22,5 +22,5 @@ int main(void)
 	else if (l != 0 && l < 6)
 		printf("last digit of %d is less than 6 and not 0\n", n, l);
 		
-	returb (0)
+	return (0)
 }
