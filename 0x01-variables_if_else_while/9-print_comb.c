@@ -11,7 +11,7 @@ int main(void)
 
 	while (s <= e)
 	{
-		putchar(s = '0');
+		putchar(s + '0');
 
 		if (s != e)
 		{
