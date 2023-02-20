@@ -7,23 +7,15 @@
  */
 int main(void)
 {
-	int s = 0, e = 9;
+	int s = 97, e = 122;
 
-	while (s <= e)
+	while (e >= s)
 	{
-		putchar(s = '0');
-	s++;
+		putchar(e);
+		e--;
 	}
 
-	s = 97
-	e = 102
-	
-	while (s <= e)
-	{
-		putchar(s);
-		s++;
-	}
-	putchar('\n');
+	putchar('\n')
 
 	return (0);
 }
