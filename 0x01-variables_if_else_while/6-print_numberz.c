@@ -3,13 +3,13 @@
 /**
  * main - function
  *
- * return: 0 (success)
+ * return: 0 on success
  */
 int main(void)
 {
 	int s = 0, e =9;
 
-	while (d <= e)
+	while (s <= e)
 	{
 		putchar(s + '0');
 		s++;
