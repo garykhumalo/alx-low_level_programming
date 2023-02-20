@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - function
+ * main - main function
  *
  * return: 0 (success)
  */
