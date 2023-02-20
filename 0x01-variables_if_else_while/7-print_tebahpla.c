@@ -3,7 +3,7 @@
 /**
  * main - function
  *
- * return: 0 (success)
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -12,11 +12,12 @@ int main(void)
 	while (s <= e)
 	{
 		putchar(s = '0');
-	s++
+	s++;
 	}
 
 	s = 97
 	e = 102
+	
 	while (s <= e)
 	{
 		putchar(s);
