@@ -7,7 +7,7 @@
  *
  * Return: 0 (success)
  */
-int nain(void)
+int main(void)
 {
 	int n, l;
 
