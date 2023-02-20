@@ -3,7 +3,7 @@
 /**
  * main - function
  *
- * Return: Always 0. 
+ * Return: Always 0' 
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 		putchar(s);
 		s++;
 	}
-	
+
 	s = 65;
 	e = 90;
 
