@@ -10,7 +10,11 @@ void print_line(int n)
 	{
 		_putchar('\n');
 	} else
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 4fe66934140abb6fd1ea157b13ef08f33cfec62c
 	{
 		int i;
 
