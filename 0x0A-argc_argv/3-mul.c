@@ -50,7 +50,11 @@ int _atoi(char *s)
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> ed93c13c37c17d0e9b7e0223ee9c3fd21e551f06
  * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
