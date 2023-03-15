@@ -24,8 +24,8 @@ int _atoi(char *s)
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
-			++d;						
-		if (s[i] >= '0' && s[i] <= '9')		
+			++d;
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
 			if (d % 2)
@@ -36,7 +36,7 @@ int _atoi(char *s)
 				break;
 			f = 0;
 		}
-		
+
 		i++;
 	}
 
@@ -47,12 +47,12 @@ int _atoi(char *s)
 }
 
 /**
- *  * main - multiplies two numbers
- *   * @argc: number of arguments
- *    * @argv: array of arguments
- *     *
- *      * Return: 0 (Success), 1 (Error)
- *       */
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * 
+ * Return: 0 (Success), 1 (Error)
+ */
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
